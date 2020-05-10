@@ -19,3 +19,6 @@
 
 ## UI设计地址
 蓝湖地址：https://lanhuapp.com/
+
+## Markdown使用说明
+https://www.jianshu.com/p/7771794c88a1
