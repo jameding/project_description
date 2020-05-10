@@ -9,11 +9,9 @@
 ## 前端项目入口以及说明
 | 项目名称 | GITHUB路径 | 项目说明 |
 |--------|-----------|---------|
-|[jingxiaoai_app_h5_vue]|https://github.com/jameding/jingxiaoai_app_h5_vue|鲸小爱App内嵌h5以及分享出去的h5以及活动网站|
-|[pc_vue_teacher_live]|https://github.com/jameding/pc_vue_teacher_live|直播后台PC端网站，给老师发起直播用的网站|
+|[jingxiaoai_app_h5_vue](./jingxiaoai_app_h5_vue)|https://github.com/jameding/jingxiaoai_app_h5_vue|鲸小爱App内嵌h5以及分享出去的h5以及活动网站|
+|[pc_vue_teacher_live](./pc_vue_teacher_live)|https://github.com/jameding/pc_vue_teacher_live|直播后台PC端网站，给老师发起直播用的网站|
 
-[jingxiaoai_app_h5_vue]: https://www.baidu.com
-[pc_vue_teacher_live]: https://www.baidu.com
 
 ## 接口说明
 具体接口说明，在每个项目下单独进行展示
