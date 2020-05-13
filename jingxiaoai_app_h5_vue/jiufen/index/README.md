@@ -21,5 +21,5 @@
 #### 点击免费试用按钮，h5→app
 ```
 接口：goToNinePointListen
-参数：无
+参数：free
 ```
