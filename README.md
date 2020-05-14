@@ -11,6 +11,8 @@
 |--------|-----------|---------|
 |[jingxiaoai_app_h5_vue](./jingxiaoai_app_h5_vue)|https://github.com/jameding/jingxiaoai_app_h5_vue|鲸小爱App内嵌h5以及分享出去的h5以及活动网站|
 |[pc_vue_teacher_live](./pc_vue_teacher_live)|https://github.com/jameding/pc_vue_teacher_live|直播后台PC端网站，给老师发起直播用的网站|
+|[logistics](./logistics)|https://github.com/JinghangAI/logistics|PC端后台管理项目，听力物流管理平台|
+|[jxacms_fe](./jxacms_fe)|https://github.com/JinghangAI/jxacms_fe|PC端后台管理项目，整合之前的老管理项目|
 
 
 ## 接口说明
