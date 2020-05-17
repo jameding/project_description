@@ -18,6 +18,10 @@
 ## 接口说明
 具体接口说明，在每个项目下单独进行展示
 
+## eslint+prettier规范与检查代码
+公司前端代码规范，主要借助eslint+prettier进行代码检查和自动格式化，[点击进去](./tool/eslint)
+
+
 
 ## UI设计地址
 蓝湖地址：https://lanhuapp.com/
