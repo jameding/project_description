@@ -9,19 +9,21 @@
 ## 前端项目入口以及说明
 | 项目名称 | GITHUB路径 | 项目说明 |
 |--------|-----------|---------|
-|[jingxiaoai_app_h5_vue](./jingxiaoai_app_h5_vue)|https://github.com/jameding/jingxiaoai_app_h5_vue|鲸小爱App内嵌h5以及分享出去的h5以及活动网站|
-|[pc_vue_teacher_live](./pc_vue_teacher_live)|https://github.com/jameding/pc_vue_teacher_live|直播后台PC端网站，给老师发起直播用的网站|
-|[IMTFrontend](./IMTFrontend)|https://github.com/JinghangAI/IMTFrontend|鲸准机考项目|
-|[logistics](./logistics)|https://github.com/JinghangAI/logistics|PC端后台管理项目，听力物流管理平台|
-|[jxacms_fe](./jxacms_fe)|https://github.com/JinghangAI/jxacms_fe|PC端后台管理项目，整合之前的老管理项目|
-
-## 接口说明
-具体接口说明，在每个项目下单独进行展示
+|[jingxiaoai_app_h5_vue](./project/jingxiaoai_app_h5_vue)|https://github.com/jameding/jingxiaoai_app_h5_vue|鲸小爱App内嵌h5以及分享出去的h5以及活动网站|
+|[pc_vue_teacher_live](./project/pc_vue_teacher_live)|https://github.com/jameding/pc_vue_teacher_live|直播后台PC端网站，给老师发起直播用的网站|
+|[logistics](./project/logistics)|https://github.com/JinghangAI/logistics|PC端后台管理项目，听力物流管理平台|
+|[jxacms_fe](./project/jxacms_fe)|https://github.com/JinghangAI/jxacms_fe|PC端后台管理项目，整合之前的老管理项目|
+|[IMTFrontend](./project/IMTFrontend)|https://github.com/JinghangAI/IMTFrontend|鲸准机考项目|
 
 ## eslint+prettier规范与检查代码
 公司前端代码规范，主要借助eslint+prettier进行代码检查和自动格式化，[点击进去](./tool/eslint)
 
+## 代码设计以及结构等规范
+* react框架代码设计规范[点击进去](./tool/eslint)
+* vue框架代码设计规范[点击进去](./tool/eslint)
 
+## 接口说明
+具体接口说明，在每个项目下单独进行展示
 
 ## UI设计地址
 蓝湖地址：https://lanhuapp.com/
