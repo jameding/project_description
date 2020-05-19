@@ -15,18 +15,18 @@
 |[jxacms_fe](./project/jxacms_fe)|https://github.com/JinghangAI/jxacms_fe|PC端后台管理项目，整合之前的老管理项目|
 |[IMTFrontend](./project/IMTFrontend)|https://github.com/JinghangAI/IMTFrontend|鲸准机考项目|
 
-## eslint+prettier规范与检查代码
+### eslint+prettier规范与检查代码
 公司前端代码规范，主要借助eslint+prettier进行代码检查和自动格式化，[点击进去](./tool/eslint)
 
-## 代码设计以及结构等规范
+### 代码设计以及结构等规范
 * react框架代码设计规范[点击进去]()
 * vue框架代码设计规范[点击进去](./standard/vue)
 
-## 接口说明
+### 接口说明
 具体接口说明，在每个项目下单独进行展示
 
-## UI设计地址
+### UI设计地址
 蓝湖地址：https://lanhuapp.com/
 
-## Markdown使用说明
+### Markdown使用说明
 https://www.jianshu.com/p/7771794c88a1
