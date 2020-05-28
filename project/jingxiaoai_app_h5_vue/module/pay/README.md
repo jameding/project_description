@@ -58,7 +58,14 @@
 ```
 接口：goToNinePointListen
 参数：buy
+说明：点击去九分达人学习原生页面
 ```
+```
+接口：goToAISpokenLearning
+参数：无
+说明：点击去ai口语课原生页面
+```
+
 
 <!-- 逻辑结构 -->
 ## 页面逻辑结构
