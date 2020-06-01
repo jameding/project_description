@@ -14,7 +14,7 @@
 用法：this.$bridge.callhandler('openWeixin');
 说明：点击打开微信，如果没有安装就没反应
 ```
-#### 加载完页面后，调用此方法打开分享按钮
+#### 加载完页面后，调用此方法打开分享按钮，h5→app
 ```
 接口：setShareByApp
 参数："{
@@ -26,3 +26,5 @@
 用法：this.$bridge.callhandler('setShareByApp', JSON.stringify(shareInfo));
 结果：调用客户端，让客户端打开分享按钮，并顺便将分享信息传给客户端
 ```
+
+judgePayAppInstall
