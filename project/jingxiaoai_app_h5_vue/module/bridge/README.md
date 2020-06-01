@@ -16,13 +16,13 @@
 ```
 #### 加载完页面后，调用此方法打开分享按钮
 ```
-接口：setShareInfo
+接口：shareByApp
 参数："{
         shareTitle: '',
         shareUrl: '',
         shareImgUrl: '',
         shareContent: ''
     }"
-用法：this.$bridge.callhandler('setShareInfo', JSON.stringify(shareInfo));
+用法：this.$bridge.callhandler('shareByApp', JSON.stringify(shareInfo));
 结果：调用客户端，让客户端打开分享按钮，并顺便将分享信息传给客户端
 ```
