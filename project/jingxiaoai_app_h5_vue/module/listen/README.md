@@ -7,7 +7,8 @@
 ## 模块页面链接说明
 | 页面名称 | 页面路径 | 传参说明 | 支持平台 |
 |--------|---------|---------|---------|
-|[听力详情页面]() | https://jztest.jinghangapps.com/live/h5/listening?pageType=answer&pageIndex=0 | webview：(1)内嵌 | webview | 
+| 听力详情页面 | https://jztest.jinghangapps.com/live/h5/listening?pageType=answer&pageIndex=0 | pageType=answer<br/>pageIndex=1 | webview | 
+| 口语听力页 | https://jztest.jinghangapps.com/live/h5/listening?pageType=answer&pageIndex=0&payCate=spoken | pageType=answer<br/>pageIndex=1<br/>payCate=spoken | webview | 
 
 ## 各种题型的功能划分
 单选：单选题 -- <br/>
