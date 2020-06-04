@@ -7,7 +7,7 @@
 <!-- 如何将神策统计嵌入项目中 -->
 ### 在dom内添加点击事件
 v-sa-click="['englishDetailsDownload']"
-v-sa-click="['liveOrderPay', { source: 1 }]
+v-sa-click="['liveOrderPay', { source: 1 }]"
 
 ### 在js逻辑内添加点击事件
 this.$sa.track('englishPay');
