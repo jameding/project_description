@@ -14,6 +14,7 @@
 |英语故事 [story](./module/story)|用英语讲故事模块，和新航道合作的一个活动项目，应该到六七月份活动才会结束
 |九分达人 [jiufen](./module/jiufen)|九分达人模块，包含九分达人活动详情页面，以及九分达人支付功能等
 |AI口语课 [spoken](./module/spoken)|AI口语外教课模块，包含外教课活动详情页面，以及外教课支付、听力部分修改功能等
+|SpeakUp [speakup](./module/speakup)|SpeakUp模块，包含SpeakUp详情页面，以及SpeakUp支付功能等
 
 <!--页面公共h5和app交互方法模块说明-->
 ## 公共的h5和app方法调用说明
