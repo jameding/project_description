@@ -13,15 +13,22 @@
 - 3s后，判断各种用户的在线状态，如果没有上麦的话，判断连麦列表用户，1个就弹窗，多个就不弹窗
 ```
 ext：refresh
-data：{"userId":"21","roleName":"教师","onlineNum":12312,,"applyNum":12,"come":1}
+data：{"userId":"21","roleName":"教师","onlineNum":12312,"applyNum":12,"come":1}
 说明：
-  1）告知所有端，广播自己的在线信息；
+  1）【老师】告知所有端，广播自己的在线信息；
   2）onlineNum：主讲老师告知所有学生端，在线人数（可能不传，客户端做不传的判断）
   3）applyNum：主讲老师告知所有学生端，申请连麦人数（可能不传，客户端做不传的判断）
   4）老师端：come == 1的时候，所有端要立马发送自己的在线消息；
-  5）老师端：come == 1的时候，学生端返回的数据包含连麦的情况
-      a）连麦中：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"living","tellType":"audio"}}
-      b）申请中：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"applying","tellType":"audio"}}
+```
+```
+ext：refresh
+data：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"living","tellType":"audio"},support:'tellphone'}
+说明：
+  1）【学生】告知所有端，广播自己的在线信息；
+  2）老师端：come == 1的时候，所有端要立马发送自己的在线消息；
+  3）老师端：come == 1的时候，学生端返回的数据包含连麦的情况
+      a）连麦中：{"userId":"21","roleName":"学生",support:'tellphone',"tellInfo":{"tellStatus":"living","tellType":"audio"}}
+      b）申请中：{"userId":"21","roleName":"学生",support:'tellphone',"tellInfo":{"tellStatus":"applying","tellType":"audio"}}
 ```
 
 #### 学生进入直播间，发送一条进入的消息状态（学生发起）
