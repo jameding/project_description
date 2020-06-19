@@ -20,8 +20,8 @@ data：{"userId":"21","roleName":"教师","onlineNum":12312,,"applyNum":12,"come
   3）applyNum：主讲老师告知所有学生端，申请连麦人数（可能不传，客户端做不传的判断）
   4）老师端：come == 1的时候，所有端要立马发送自己的在线消息；
   5）老师端：come == 1的时候，学生端返回的数据包含连麦的情况
-      a）连麦中：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"living"}}
-      b）申请中：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"applying","tellTime":"申请的时候的时间戳"}}
+      a）连麦中：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"living","tellType":"audio"}}
+      b）申请中：{"userId":"21","roleName":"学生","tellInfo":{"tellStatus":"applying","tellType":"audio"}}
 ```
 
 #### 学生进入直播间，发送一条进入的消息状态（学生发起）
