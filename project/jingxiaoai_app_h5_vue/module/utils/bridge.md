@@ -29,4 +29,15 @@
 结果：调用客户端，让客户端打开分享按钮，并顺便将分享信息传给客户端
 ```
 
-judgePayAppInstall
+#### 点击跳转到直播详情页webview的方法，h5→app
+1、现在广告页面里有需求是点击按钮，跳转到直播详情页面
+```
+接口：goToWebviewLiveLessonDetail
+参数："{
+        courseId: '',
+        url: '',
+    }"
+用法：this.$bridge.callhandler('goToWebviewLiveLessonDetail', JSON.stringify(data));
+结果：调用客户端，让客户端打开直播详情webview
+```
+
