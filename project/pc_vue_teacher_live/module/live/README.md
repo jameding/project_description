@@ -129,3 +129,19 @@ data：{"userId":"","name":"","headUrl":""}
     2、被其他学生问候，发现问的事自己，主动将自己的信息广播出去
 ```
 
+#### 老师讲学生的连麦申请状态同步给其他老师（老师发起）
+```
+ext：tell_tea_sync_stu_status
+data：{"userId":"",statusKey:"applyTime",statusValue:''}
+说明：
+   
+```
+
+#### 主讲老师发起的，告诉所有人清空老师和助教的聊天记录
+```
+ext：tell_all_delete_teacher_message
+data：''
+说明：
+   
+```
+
