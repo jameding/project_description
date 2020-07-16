@@ -13,12 +13,13 @@
 - 3s后，判断各种用户的在线状态，如果没有上麦的话，判断连麦列表用户，1个就弹窗，多个就不弹窗
 ```
 ext：refresh
-data：{"userId":"21","roleName":"教师","onlineNum":12312,"applyNum":12,"come":1}
+data：{"userId":"21","roleName":"教师","onlineNum":12312,"applyNum":12,"come":1,mainStream:{audio:true,video:false}}
 说明：
   1）【老师】告知所有端，广播自己的在线信息；
   2）onlineNum：主讲老师告知所有学生端，在线人数（可能不传，客户端做不传的判断）
   3）applyNum：主讲老师告知所有学生端，申请连麦人数（可能不传，客户端做不传的判断）
   4）老师端：come == 1的时候，所有端要立马发送自己的在线消息；
+  5）come == 1的时候，老师立马发送本地音视频开关状态mainStream:{audio:true,video:false}
 ```
 ```
 ext：refresh
@@ -137,11 +138,15 @@ data：{"userId":"",statusKey:"applyTime",statusValue:''}
    
 ```
 
-#### 主讲老师发起的，告诉所有人清空老师和助教的聊天记录
+#### 主讲老师发起的，告诉所有人清空老师和助教的聊天记录（老师发起）
 ```
 ext：tell_all_delete_teacher_message
-data：''
-说明：
-   
+data：''   
+```
+
+#### 服务器端发起的，告诉所有人当前在线人数
+```
+ext：adminBroadcast
+data：{"type": "groupOnlineCount","count": 123}   
 ```
 
