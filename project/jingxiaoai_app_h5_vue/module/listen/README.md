@@ -82,5 +82,5 @@ http://localhost:8080/live/h5/listen/training/index?page=paperSet
 纸练开始页面，点击开始的时候，弹出倒计时的原生页面
 ```
 方法：paperGamePlayMusic
-参数：无
+参数：'play' or 'pause'
 ```
