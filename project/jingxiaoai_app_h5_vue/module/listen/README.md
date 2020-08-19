@@ -60,7 +60,7 @@ http://localhost:8080/live/h5/listen/training/index?page=paperSet
 ```
 方法：setTrainingPageByApp
 参数：'clickShow'
-参数说明：点显(clickShow)、点选(clickSelect)、纸练设置(paperStart)、纸练(paperGame)
+参数说明：点显(clickShow)、点选(clickSelect)、纸练设置(paperStart)、纸练(paperGame客户端不需要调用这个)
 ```
 
 #### web调app，点击开始训练的时候，弹出3、2、1倒计时
