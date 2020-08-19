@@ -49,6 +49,11 @@ http://localhost:8080/live/h5/listen/training/index?page=paperSet
 - 参数page：点显(clickShow)、点选(clickSelect)、纸练设置(paperStart)、纸练(paperGame)
 - 参数textId：测试环境下，网页打开直接通过textId获取后端数据，客户端不要加此字段
 
+#### web调app，页面加载完毕后告知客户端，web准备好了
+```
+方法：onPageFinish
+参数：'true'
+```
 #### app调web，进入到（点选、点显、纸练）页面下，传递给web初始化的数据
 这个数据是客户端拿到后端接口，传递给web的
 ```
