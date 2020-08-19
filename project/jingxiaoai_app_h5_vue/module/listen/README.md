@@ -10,6 +10,7 @@
 | 听力详情页面 | https://jztest.jinghangapps.com/live/h5/listening?pageType=answer&pageIndex=0 | pageType=answer<br/>pageIndex=1 | webview | 
 | 口语听力页 | https://jztest.jinghangapps.com/live/h5/listening?pageType=answer&pageIndex=0&payCate=spoken | pageType=answer<br/>pageIndex=1<br/>payCate=spoken | webview | 
 | 精听详情页面 | https://jztest.jinghangapps.com/live/h5/listening?pageType=listen&pageIndex=0&test=1 | pageType=listen<br/>pageIndex=0 | webview | 
+| 点选/显示、纸练 | https://jztest.jinghangapps.com/live/h5/listen/training/index?page=clickShow | page=clickShow | webview | 
 
 ## 各种题型的功能划分
 单选：单选题 -- <br/>
