@@ -67,12 +67,20 @@ http://localhost:8080/live/h5/listen/training/index?page=paperSet
 纸练开始页面，点击开始的时候，弹出倒计时的原生页面
 ```
 方法：paperPenCountDownByApp
-参数：null
+参数：无
+```
+
+#### web调app，网页自动切换做题模式的时候 ，让原生的顶部tab跟着动
+纸练模式结束后，点击结束按钮会跳转到点选模式，这个时候要让原生的顶部tab也切换
+```
+方法：changeTrainingPageByApp
+参数：'clickShow'
+参数说明：点显(clickShow)、点选(clickSelect)、纸练设置(paperStart)
 ```
 
 #### app调web，进入纸练模式后，控制页面自动播放声音
 纸练开始页面，点击开始的时候，弹出倒计时的原生页面
 ```
 方法：paperGamePlayMusic
-参数：null
+参数：无
 ```
