@@ -16,6 +16,7 @@
 |九分达人 [jiufen](./module/jiufen)|九分达人模块，包含九分达人活动详情页面，以及九分达人支付功能等
 |AI口语课 [spoken](./module/spoken)|AI口语外教课模块，包含外教课活动详情页面，以及外教课支付、听力部分修改功能等
 |SpeakUp [speakup](./module/speakup)|SpeakUp模块，包含SpeakUp详情页面，以及SpeakUp支付功能等
+|听力备考 [listenTest](./module/listenTest)|听力备考计划，包含入学测试，真题小练、测试详情等页面
 
 <!--页面公共h5和app交互方法模块说明-->
 ## 公共的h5和app方法调用说明
