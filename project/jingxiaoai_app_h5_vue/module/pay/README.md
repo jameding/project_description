@@ -35,6 +35,14 @@
     <tr>
         <td>payCate：story</td>
     </tr>
+    <tr>
+        <td rowspan='2'>听力备考计划</td>
+        <td rowspan='2'>https://jztest.jinghangapps.com/live/h5/paysubmit?payId=listentest&payCate=listentest&webview=1</td>
+        <td>payId：listentest(写死)</td>
+    </tr>
+    <tr>
+        <td>payCate：listentest</td>
+    </tr>
 </table>
 
 <!-- 页面bridge交互说明 -->
@@ -64,6 +72,11 @@
 接口：goToAISpokenLearning
 参数：无
 说明：点击去ai口语课原生页面
+```
+```
+接口：goToListenExaminationLearning
+参数：无
+说明：听力备考计划，预定成功页面点击去学习
 ```
 
 
