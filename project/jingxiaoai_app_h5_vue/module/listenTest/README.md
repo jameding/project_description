@@ -9,3 +9,4 @@
 |--------|---------|---------|---------|
 |[入学测试题](./pages/test.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/test?webview=1 | webview=1 | webview、h5 | 
 |[备考支付页](../pay) | https://jztest.jinghangapps.com/live/h5/paysubmit?payId=listentest&payCate=listentest&webview=1 | webview=1<br/>payId=listentest<br/>payCate=listentest | webview、h5 | 
+
