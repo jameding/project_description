@@ -1,5 +1,5 @@
 <!-- 页面大标题 -->
-# 听力备考计划，入学测试页面
+# 听力备考计划，入学测试 or 阶段测试页面
 
 <!-- 页面说明 -->
 听力备考计划，内置的入学测试属于h5写的，题目来源
@@ -11,13 +11,15 @@
 
 <!--页面路径说明-->
 ## 页面路径说明
-- 测试地址：https://jztest.jinghangapps.com/live/h5/listen/examination/test?webview=1
-- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/test?webview=1
+- 测试地址：https://jztest.jinghangapps.com/live/h5/listen/examination/test?pagetype=stage&cardId=1
+- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/test?pagetype=stage&cardId=1
 ### 参数说明
 | 参数 | 有效值 | 传参说明 |
 |--------|---------|---------|
 |webview | 1 | 1的时候，说明是webview内嵌网页 | 
 |token | xxxxx | webview=1的时候，需要传入token | 
+|pagetype | 'test' or 'stage' | test：入学测试题目<br/>stage：阶段测试题目 | 
+|cardId | 1 | pagetype = test的时候不用传 | 
 
 <!-- 页面bridge交互说明 -->
 ## 页面和客户端(app)数据交互
@@ -99,4 +101,11 @@ countDown: 是否展示3、2、1倒计时
 ```
 方法：examinationIsError
 参数：''
+```
+
+##### web→app，告知客户端是“重新测试”or“继续学习”
+阶段测试完毕到测试结果页面后，页面的按钮
+``
+方法：customizeStagePageAction
+参数："retest" or "continueLearn"
 ```
