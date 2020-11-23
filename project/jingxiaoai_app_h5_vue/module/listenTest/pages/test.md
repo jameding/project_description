@@ -60,7 +60,10 @@ countDown: 是否展示3、2、1倒计时
 保存的嘿嘿，客户端只有在收到此数据通知后，才可以真正的退出做题页面，如果传输的数据为空不要保存直接退出
 ```
 方法：setExaminationUserAnswer
-参数：'{testId: 123,textId: 1232,answerObj: {}}'  or  ''
+参数："{pagetype:'test',testId: 123,textId: 1232,answerObj: {}}"  or  ""
+--------------------
+pagetype=test  :进入页面加载的时候，根据页面类型检索出test类型答案发给web端
+pagetype=stage :进入页面加载的时候，根据页面类型检索出stage类型答案发给web端
 ```
 
 #### web→app，通知客户端，测试结束，应该跳去结果页面了

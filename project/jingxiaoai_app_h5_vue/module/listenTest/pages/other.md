@@ -53,13 +53,13 @@
 ## Lectrue测试报告页面
 
 #### 页面路径说明
-- 测试地址：https://jztest.jinghangapps.com/live/h5/listen/examination/lecturePort?id=1&webview=1
-- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/lecturePort?id=1&webview=1
+- 测试地址：https://jztest.jinghangapps.com/live/h5/listen/examination/lecturePort?cardId=1&webview=1
+- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/lecturePort?cardId=1&webview=1
 
 ### 参数说明
 | 参数 | 有效值 | 传参说明 |
 |--------|---------|---------|
-|id | 123 | 测评报告的id | 
+|cardId | 123 | 测评报告的cardId | 
 
 <!-- 页面bridge交互说明 -->
 #### 页面和客户端(app)数据交互
