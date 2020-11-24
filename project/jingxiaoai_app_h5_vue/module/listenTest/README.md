@@ -9,7 +9,7 @@
 |--------|---------|---------|---------|
 |[入学测试题](./pages/test.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/test?pagetype=test | pagetype=test | webview | 
 |[阶段测试](./pages/test.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/test?pagetype=stage&cardId=1 | pagetype=stage<br/>cardId = 1 | webview | 
-|[真题小练](./pages/zhen.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/zhenPractice?webview=1 | webview=1 | webview、h5 | 
+|[真题小练](./pages/zhen.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/zhenPractice?cardId=11&webview=1 | webview=1 | webview、h5 | 
 |[备考支付页](../pay) | https://jztest.jinghangapps.com/live/h5/paysubmit?payId=listentest&payCate=listentest&webview=1 | webview=1<br/>payId=listentest<br/>payCate=listentest | webview、h5 | 
 |[7天免费领取](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/freeGet?webview=1 | webview=1 | webview、h5 |
 |[入学测试报告页面](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/report?customplan=1&webview=1 | webview=1<br/>customplan=1 | webview、h5 | 
