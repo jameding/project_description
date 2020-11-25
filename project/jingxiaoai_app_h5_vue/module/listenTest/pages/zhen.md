@@ -42,13 +42,13 @@ onPageFinish后；
 方法：countDownSubmitTheAnswer
 参数：''
 ```
-##### web→app，真题小练页面，告知客户端播放音乐或者倒计时
+##### web→app，真题小练页面，告知客户端播放音乐或者倒计时,并附带quesType、itemId
 这里存在两种情况，
 一种是新的题型（一步/两步）选择题，可能会给一个倒计时
 二中是原先的提醒，会播放英文录音，也会告知客户端
 ```
 方法：examinationZhenTellQuestionInfo
-参数："{type:'audio',audioUrl:''}" or "{type:'countDown',timeout:213}"
+参数："{type:'audio',audioUrl:'',quesType:0,itemId:123}" or "{type:'countDown',timeout:213,quesType:0,itemId:123}"
 ```
 ##### web→app，真题小练页面，最后做完题后，用户点击完成按钮
 用户点击完成按钮，告知客户端完成h5做题了，剩下的交给客户端处理了
