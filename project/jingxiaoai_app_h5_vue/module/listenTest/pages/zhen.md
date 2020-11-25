@@ -34,7 +34,7 @@ onPageFinish后；
 参数：'{commitItemCount:xx、lastCommitQuesItemId:xx、lastCommitQuesType:xx、totalItemCount:xx、realQuesInfo:xx、realQuesInfoFix:xx}'
 ```
 
-#### web→app，告知客户端测试已经完成，可以继续其他逻辑了
+#### app→web，告知web端倒计时结束了，走剩余的逻辑
 新题型，后台设置了倒计时时间后，倒计时结束客户端强制web自动提交题目
 一步选择题：直接强制提交
 二部选择题：强制题目翻页
