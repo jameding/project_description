@@ -32,7 +32,7 @@
 
 #### 页面路径说明
 - 测试地址：https://jztest.jinghangapps.com/live/h5/listen/examination/report?customplan=1&testId=123&pagetype=test&webview=1
-- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/freeGet?customplan=1&testId=123&pagetype=test&webview=1
+- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/report?customplan=1&testId=123&pagetype=test&webview=1
 
 ### 参数说明
 | 参数 | 有效值 | 传参说明 |
@@ -54,7 +54,7 @@
 
 #### 页面路径说明
 - 测试地址：https://jztest.jinghangapps.com/live/h5/listen/examination/report?pagetype=stage&webview=1
-- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/freeGet?pagetype=stage&webview=1
+- 生产地址：https://live.jinghangapps.com/live/h5/listen/examination/report?pagetype=stage&webview=1
 
 ### 参数说明
 | 参数 | 有效值 | 传参说明 |
