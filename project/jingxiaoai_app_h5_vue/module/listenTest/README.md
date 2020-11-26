@@ -12,6 +12,7 @@
 |[真题小练](./pages/zhen.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/zhenPractice?cardId=11&webview=1 | webview=1 | webview、h5 | 
 |[备考支付页](../pay) | https://jztest.jinghangapps.com/live/h5/paysubmit?payId=listentest&payCate=listentest&webview=1 | webview=1<br/>payId=listentest<br/>payCate=listentest | webview、h5 | 
 |[7天免费领取](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/freeGet?webview=1 | webview=1 | webview、h5 |
-|[入学测试报告页面](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/report?customplan=1&webview=1 | webview=1<br/>customplan=1 | webview、h5 | 
+|[入学测试报告页面](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/report?customplan=1&pagetype=test&testId=123&webview=1 | webview=1<br/>customplan=1<br/>testId=123<br/>pagetype=test | webview、h5 | 
+|[阶段测试报告页面](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/report?pagetype=stage&webview=1 | webview=1<br/>pagetype=stage | webview、h5 | 
 |[Lectrue试报告页面](./pages/other.md) | https://jztest.jinghangapps.com/live/h5/listen/examination/lecturePort?cardId=1&webview=1 | webview=1<br/>cardId=1 | webview、h5 | 
 
