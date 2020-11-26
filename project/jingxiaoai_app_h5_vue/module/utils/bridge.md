@@ -14,7 +14,7 @@
 用法：this.$bridge.callhandler('openWeixin');
 说明：点击打开微信，如果没有安装就没反应
 ```
-#### 加载完页面后，调用此方法打开分享按钮，h5→app
+#### 调用此方法展示右上角的分享按钮，h5→app
 1、放到了全局路由中，进入新页面的时候，会发送空信号给客户端<br />
 2、进入单个页面后，再根据逻辑判断是否要设置分享按钮的数据
 ```
@@ -27,6 +27,20 @@
     }"
 用法：this.$bridge.callhandler('setShareByApp', JSON.stringify(shareInfo));
 结果：调用客户端，让客户端打开分享按钮，并顺便将分享信息传给客户端
+```
+
+#### 点击页面中的按钮，让客户端弹出分享弹窗，h5→app
+这是一个全局方法，区别于setShareByApp方法
+```
+接口：shareByApp
+参数："{
+        shareTitle: '',
+        shareUrl: '',
+        shareImgUrl: '',
+        shareContent: ''
+    }"
+用法：this.$bridge.callhandler('shareByApp', JSON.stringify(shareInfo));
+结果：调用客户端，让客户端打开分享弹窗，用户可以直接分享数据到第三方
 ```
 
 #### 点击跳转到直播详情页webview的方法，h5→app
