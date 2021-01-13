@@ -91,12 +91,10 @@
 参数：'{recordId:123}'
 ```
 
-#### ！！！！！！web调app，网页告知客户端，打开一个新的webview
-这个算作一个全局方法吧，后期再用的话就不用重新写了
-客户端需要自己在后边填上  webview、token、version等公共字段（是加？开头还是&要判断一下）
+#### web调app，在答题记录页面，点击答题记录卡片进入结果页面
 ```
-方法：openNewWebview
-参数：'https://jztest.jinghangapps.com/live/h5/reading/readIndex?cardType=question&classcificationType=0&textId=127&groupIds=128,129&isStart=0'
+方法：answerCardGoDetail
+参数：'{ recordId: recordId }'
 ```
 
 #### web调app，网页告知客户端，可以正常返回了
