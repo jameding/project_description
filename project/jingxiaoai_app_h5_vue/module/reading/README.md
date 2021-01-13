@@ -105,3 +105,9 @@
 方法：tellAppGoBackPage
 参数：''
 ```
+#### web调app，用户点击网页上的，“再次练习”按钮
+点击再次练习返回到作答页面且清空用户所有输入内容
+```
+方法：againAnswerQuestion
+参数：''
+```
