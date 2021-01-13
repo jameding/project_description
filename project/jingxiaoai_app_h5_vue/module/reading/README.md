@@ -69,14 +69,16 @@
 ```
 
 #### app调web，提交答案的时候询问网页是否有为作答的题目
-网页端判断是否已经做完，如果是已经做完的情况下，网页端直接通过tellUserAnswerIsOver方法给客户端传'true',并且直接交卷，不用客户端单独告知了
+网页端会通过tellUserAnswerIsOver方法告知客户端，是否已经做完
 ```
 方法：askUserAnswerIsOver
 参数：''
 ```
 
 #### web调app，网页告知客户端，当前做题是否已经全部做完
-配合askUserAnswerIsOver使用
+配合askUserAnswerIsOver使用，客户端的逻辑分两种情况
+- 已经做完：直接调用强制交卷方法，让网页端交卷commitPracQues
+- 没有做完：弹窗原生的交卷确认弹窗，点击了交卷按钮后，再调用commitPracQues
 ```
 方法：tellUserAnswerIsOver
 参数：'false' or 'true'
