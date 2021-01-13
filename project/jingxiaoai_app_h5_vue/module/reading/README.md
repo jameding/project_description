@@ -68,20 +68,24 @@
 参数：'{"useTime":1231212}'
 ```
 
-#### app调web，提交答案的时候询问网页是否有为作答的题目
+#### app调web，“提交答案”或者“返回”的时候询问网页是否有为作答的题目
 网页端会通过tellUserAnswerIsOver方法告知客户端，是否已经做完
 ```
 方法：askUserAnswerIsOver
 参数：''
 ```
-
-#### web调app，网页告知客户端，当前做题是否已经全部做完
+#### web调app，网页告知客户端，当前做题“是否已经全部做完”，“当前是否做过”
 配合askUserAnswerIsOver使用，客户端的逻辑分两种情况
-- 已经做完：直接调用强制交卷方法，让网页端交卷commitPracQues
-- 没有做完：弹窗原生的交卷确认弹窗，点击了交卷按钮后，再调用commitPracQues
+- 点击返回的时候
+    - 有做过题目：弹出是否保存的确认弹窗
+    - 没做过题目：直接返回上一页了
+- 提交试题的时候
+    - 已经做完：直接调用强制交卷方法，让网页端交卷commitPracQues
+    - 没有做完：弹窗原生的交卷确认弹窗，点击了交卷按钮后，再调用commitPracQues
 ```
 方法：tellUserAnswerIsOver
-参数：'false' or 'true'   （参数是字符串形式的，不是布尔类型）
+参数：{"isOver":"false","isDown":"false"}   
+说明：isOver：是否昨晚，isDown是否做过（参数是字符串形式的，不是布尔类型）
 ```
 
 #### web调app，网页告知客户端，已经交卷，该去结果页面了
