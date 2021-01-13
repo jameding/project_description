@@ -81,7 +81,7 @@
 - 没有做完：弹窗原生的交卷确认弹窗，点击了交卷按钮后，再调用commitPracQues
 ```
 方法：tellUserAnswerIsOver
-参数：'false' or 'true'
+参数：'false' or 'true'   （参数是字符串形式的，不是布尔类型）
 ```
 
 #### web调app，网页告知客户端，已经交卷，该去结果页面了
