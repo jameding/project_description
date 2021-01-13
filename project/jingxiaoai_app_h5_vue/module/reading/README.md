@@ -8,7 +8,7 @@
 | 页面名称 | 页面路径 | 传参说明 | 支持平台 |
 |--------|---------|---------|---------|
 | 做题页面（题目/原文/答题记录） | https://jztest.jinghangapps.com/live/h5/reading/readIndex?cardType=question&classcificationType=0&textId=127&groupIds=128,129&isStart=0 | cardType=question<br/>classcificationType=0<br/>textId=127<br/>groupIds=128,129<br/>isStart=0 | webview | 
-| 答案页面（题目/原文） | https://jztest.jinghangapps.com/live/h5/reading/readIndex?cardType=answer&recordId=8 | cardType=answer<br/>recordId=8 | webview | 
+| 答案页面（题目/原文） | https://jztest.jinghangapps.com/live/h5/reading/readIndex?cardType=answer&recordId=8&showAgain=1 | cardType=answer<br/>recordId=8<br/>showAgain=1 | webview | 
 
 
 ## 阅读做题页面与客户端的交互
