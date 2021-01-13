@@ -69,6 +69,7 @@
 ```
 
 #### app调web，提交答案的时候询问网页是否有为作答的题目
+网页端判断是否已经做完，如果是已经做完的情况下，网页端直接通过tellUserAnswerIsOver方法给客户端传'true',并且直接交卷，不用客户端单独告知了
 ```
 方法：askUserAnswerIsOver
 参数：''
