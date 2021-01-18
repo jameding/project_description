@@ -46,12 +46,17 @@
 ```
 方法：setSelectOptionForWeb
 参数：'xxxx'
+说明：如果是单选的时候，返回的userAnswer=1
+     如果是多选的时候，返回的userAnswer=[1,3]
 ```
 
 #### web调app，配对选择题点击的时候，告知客户端弹出选择列表
 ```
 方法：openSelectOptionByApp
 参数：'xxxx'
+说明：客户端通过数据中的answer字段，判断当前数组的长度，
+    1、如果是1就是单选，按照以前的逻辑
+    2、如果大于1是多选，就走多选的UI和逻辑
 ```
 
 #### app调web，告知网页端保存数据了
