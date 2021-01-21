@@ -150,3 +150,20 @@ ext：adminBroadcast
 data：{"type": "groupOnlineCount","count": 123}   
 ```
 
+#### 【新增】服务器端发起的，告知所有人弹框
+
+```
+ext：adminBroadcast
+data {"type": "welfarePopUp", "userId": "", "info": {}}
+
+```
+userId为空字符串，在线的所有人都弹出弹框；
+非空字符串时，含义为im中的userId，特定用户弹框
+
+#### 【新增】学生端（app和web学生端）发起，告知服务端关闭了福利弹框
+
+```
+ext：tell_manager_closeWalfarePop
+data：{"askUserId":""}
+说明：学生点击关闭弹框时，在im中发送该消息
+```
