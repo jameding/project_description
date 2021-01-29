@@ -6,6 +6,18 @@
 
 <!-- 页面bridge交互说明 -->
 ## H5调用客户端的方法
+#### 调用此方法修改webview导航栏，h5→app
+
+```
+接口：setNavigationBar
+参数："{
+        backgroundColor: '#fff', // 背景色
+        titleColor: '#000', // 标题颜色
+        backBtnType: 'black' // 返回按钮颜色 black white
+	};"
+用法：this.$bridge.callhandler('setNavigationBar', JSON.stringify(params));
+结果：调用客户端，让客户端修改导航栏颜色
+```
 #### 点击打开微信，h5→app
 ```
 接口：openWeixin
