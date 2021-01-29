@@ -43,10 +43,40 @@
     <tr>
         <td>payCate：listentest</td>
     </tr>
+    <tr>
+        <td rowspan='2'>福利弹窗</td>
+        <td rowspan='2'>https://jztest.jinghangapps.com/live/h5/paysubmit?payId=365&payCate=welfare&webview=1</td>
+        <td>payId：福利弹窗goodsid</td>
+    </tr>
+    <tr>
+        <td>payCate：welfare</td>
+    </tr>
+    <tr>
+        <td rowspan='2'>大会员</td>
+        <td rowspan='2'>https://jztest.jinghangapps.com/live/h5/paysubmit?payId=47&index=1&payCate=vip&webview=1</td>
+        <td>payId：大会员列表中的id</td>
+    </tr>
+    <tr>
+        <td>payCate：vip(写死)</td>
+    </tr>
 </table>
 
 <!-- 页面bridge交互说明 -->
 ## 页面和客户端(app)数据交互
+#### 客户端调用方法，来检测是否支付成功，app→h5
+```
+接口：deletePaySubmitOrderNo
+参数：""
+结果：订单页点击返回后退时调用，清除订单信息
+```
+##### 修改webview导航栏颜色，h5→app
+这是一个全栈公共方法，点击去[查看](../utils/bridge.md)
+#### 大会员成功页点击去学习按钮，h5→app
+```
+接口：goToPreparationPlan
+参数：无
+说明：大会员购买成功后点击去往备考计划首页
+```
 #### 点击免费试用按钮，h5→app
 ```
 接口：judgePayAppInstall
