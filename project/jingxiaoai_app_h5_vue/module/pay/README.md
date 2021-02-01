@@ -63,18 +63,6 @@
 
 <!-- 页面bridge交互说明 -->
 ## 页面和客户端(app)数据交互
-#### 客户端调用方法，来检测是否支付成功，app→h5
-```
-接口：deletePaySubmitOrderNo
-参数：""
-结果：订单页点击返回后退时调用，清除订单信息
-```
-#### 告知客户端此时在支付成功页，h5→app
-```
-接口：this.$bridge.callhandler('landedInPaySucceed');
-参数：""
-结果：告知客户端此时在支付成功页
-```
 ##### 修改webview导航栏颜色，h5→app
 这是一个全栈公共方法，点击去[查看](../utils/bridge.md)
 #### 大会员成功页点击去学习按钮，h5→app
@@ -82,6 +70,18 @@
 接口：goToPreparationPlan
 参数：无
 说明：大会员购买成功后点击去往备考计划首页
+```
+#### 客户端调用方法，来检测是否支付成功，app→h5 （iOS）
+```
+接口：deletePaySubmitOrderNo
+参数：无
+结果：订单页点击返回后退时调用，清除订单信息
+```
+#### 告知客户端此时在支付成功页，h5→app （iOS）
+```
+接口：landedInPaySucceed
+参数：无
+结果：告知客户端此时在支付成功页
 ```
 #### 点击免费试用按钮，h5→app
 ```
