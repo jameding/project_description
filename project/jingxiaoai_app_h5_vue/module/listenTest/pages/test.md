@@ -24,6 +24,12 @@
 <!-- 页面bridge交互说明 -->
 ## 页面和客户端(app)数据交互
 
+#### web→app，告知客户端该section题目是否完成
+告知客户端，客户端弹窗提醒用户，用户选择继续提交时客户端调用方法：setExaminationHandIn
+```
+方法：isSectionAnswerCompleted
+参数：'true' or 'false'
+```
 #### web→app，告知客户端页面已经加载完成
 告知客户端，客户端将做题的数据传给web端
 ```
